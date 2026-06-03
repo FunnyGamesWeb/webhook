@@ -7,7 +7,7 @@ import os
 # =============================================
 # EINSTELLUNGEN - HIER ANPASSEN
 # =============================================
-BOT_TOKEN = "DEIN_BOT_TOKEN_HIER"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = 123456789  # Deine Channel ID (nur Zahlen, keine Anführungszeichen!)
 # =============================================
 
